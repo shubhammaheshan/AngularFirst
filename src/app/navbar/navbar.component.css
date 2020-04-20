@@ -1,0 +1,13 @@
+.navbar-brand{
+    font-size: 25px;
+}
+#nav_style{
+    background-color: purple !important;
+}
+#nav_style a{
+    color: white;
+}
+#nav_style a:hover{
+    /* font-size: 20px; */
+    color: red;
+}  

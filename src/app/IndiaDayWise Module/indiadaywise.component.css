@@ -1,0 +1,14 @@
+#aboutid{
+    margin-top: 100px;
+}
+thead tr:nth-child(3) {
+    background: rgb(237, 248, 137);
+  }
+  thead tr:nth-child(2) {
+      font-size: 20px;
+      margin-left: 5px;
+  }
+
+#aboutid:hover{
+    background: khaki;
+}
