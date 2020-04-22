@@ -19,25 +19,25 @@
 
 <!-- Update Data -->
 
-<section class="corona_update">
+<section class="corona_update text-center">
   <div class="mb-3">
-    <h3 class="text-uppercase text-center"><strong>COVID-19 Updates</strong></h3>
+    <h3 class="text-uppercase"><strong>COVID-19 Updates</strong></h3>
   </div>
-  <div class="d-flex justify-content-around align-items-center count_style">
+  <div class="d-flex justify-content-around align-items-center count_style banner">
     <div>
-      <h1 class="count" *ngIf="checkcon">{{worldData.TotalConfirmed}}</h1>
-      <p>Total NewConfirmed</p>
+      <h2 class="count text-primary" *ngIf="checkcon">{{worldData.TotalConfirmed}}</h2>
+      <p>Total Confirmed</p>
     </div>
     <div>
-      <h1 class="count" *ngIf="checkcon">{{worldData.TotalRecovered}}</h1>
+      <h2 class="count text-success" *ngIf="checkcon">{{worldData.TotalRecovered}}</h2>
       <p>Total Recovered</p>
     </div>
     <div>
-      <h1 class="count" *ngIf="checkcon">{{worldData.TotalDeaths}}</h1>
+      <h2 class="count text-danger" *ngIf="checkcon">{{worldData.TotalDeaths}}</h2>
       <p>Death</p>
     </div>
     <div>
-      <h1 class="count" *ngIf="checkcon">{{worldData.NewConfirmed}}</h1>
+      <h2 class="count text-warning" *ngIf="checkcon">{{worldData.NewConfirmed}}</h2>
       <p>Today Confirmed</p>
     </div>
   </div>

@@ -19,6 +19,9 @@
  .leftsaid img{ animation: heartback 5s linear infinite;
  
  }
+ .banner div p{
+     font-size: 18px;
+ }
 
  @keyframes  heartback{
      0%{
