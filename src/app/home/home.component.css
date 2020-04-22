@@ -1,6 +1,7 @@
 .main_header{
     height: 450px;
     width: 100%;
+    margin-top: 50px;
 }
 #logo{
     width: 70px;
@@ -63,6 +64,12 @@ margin-top: 10px;
     background-color: #ff7675;
     /* background-color: #fbfafd; */
 }
+
+@media only screen and (max-width: 400px) {
+    .corona_update h2 {
+      font-size: 9px;
+    }
+  }
 
 #myBtn {
     display: none;
