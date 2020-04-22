@@ -9,6 +9,7 @@ import { IndiaModule } from './India Module/india.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './Material/material/material.module';
 import { DemographicModule } from './demographic/demographic.module';
+import { FooterComponent } from './Footer/footer.component';
 // import { IndiadaywiseModule } from './IndiaDayWise Module/indiadaywise.module';
 
 
@@ -17,6 +18,7 @@ import { DemographicModule } from './demographic/demographic.module';
     AppComponent,
     NavbarComponent,
     HomeComponent,
+    FooterComponent
     
   ],
   imports: [
