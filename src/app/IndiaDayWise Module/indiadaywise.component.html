@@ -1,11 +1,11 @@
-<div class="container-fluid sub_section pt-2 pb-2" id="aboutid">
+<div class="container sub_section pt-2 pb-2" id="aboutid">
     <div class="section_header text-center mb-2">
         <h1 class="text-uppercase">COVID-19 DayWise Updates In INDIA</h1>
     </div>
 </div>
 
-<div class="table-area">
-    <table class="responsive-table table"  *ngFor="let daily of DailyData">
+<div class="table-responsive">
+    <table class="table" *ngFor="let daily of DailyData">
         <thead class="text-capitalize">
             <tr><strong>Date & Month</strong></tr>
             <tr><b>{{daily.date}} 2020</b></tr>
@@ -26,7 +26,6 @@
                 <td>{{daily.totalconfirmed}}</td>
                 <td class="text-danger">{{daily.totaldeceased}}</td>
                 <td>{{daily.totalrecovered}}</td>
-
             </tr>
         </tbody>
     </table>

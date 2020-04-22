@@ -1,75 +1,94 @@
 .main_header{
-    height: 450px;
-    width: 100%;
     margin-top: 50px;
 }
-#logo{
-    width: 70px;
-height: 70px;
-margin-left: 5px;
-margin-right: 5px;
-margin-top: 10px;
-}
-.right_side{
+
+.right h1{
     font-size: 3rem;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    font-weight: 20;
 }
-.coronalogo img{
-    animation: gocorna 3s linear infinite;
-}
-@keyframes gocorna{
-    0%{
-        transform: rotate(0);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-.leftside img{
-    animation: people 5s linear infinite;
-}
-@keyframes people{
-    0%{
-        transform: scale(1);
-    }
-    20%{
-        transform: scale(.75);
-    }
-    60%{
-        transform: scale(1);
-    }
-    80%{
-        transform: scale(.75);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
+#corona_rot img{
+    animation: gocorona 3s linear infinite;
+    
+ }
+ @keyframes gocorona{
+     0% { transform: rotate(0);}
+     100% { transform: rotate(360deg);}
+ }
+ .leftsaid img{ animation: heartback 5s linear infinite;
+ 
+ }
+
+ @keyframes  heartback{
+     0%{
+         transform: scale(.75);
+     }
+     20%{
+         transform: scale(1);
+     }
+     40%{
+         transform: scale(.75);
+     }
+     60%{
+         transform: scale(1);
+     }
+ } 
 
 /* *******corona update**** */
 .corona_update{
     margin: 0 0 30px 0;
 }
-.corona_update h1{
-    color: purple;
-    text-align: center;
-}
-.corona_update1 p{
-    text-align: center;
-}
 .corona_update h3{
-    color: red
+    color: #ff7675;
+}
+.corona_update h1{
+    text-align: center ;
+    font-size: 2rem;
+}
+.section_header{
+    font-weight: bold;
 }
 
-.sub_section{
-    background-color: #ff7675;
-    /* background-color: #fbfafd; */
-}
 
-@media only screen and (max-width: 400px) {
-    .corona_update h2 {
-      font-size: 9px;
+
+@media(max-width:768px){
+    .main_header{height: 700px; text-align: center;}
+      .count_style{
+      display: inline!important;
     }
+   
+   
   }
+  .row{
+    margin-left: 0!important;
+    margin-right: 0!important;
+
+  }
+
+  .count_style p{
+   text-align: center;
+  }
+  
+
+  .symtos:hover{ animation: heeart 5s linear infinite;
+    }
+  @keyframes  heeart{
+    0%{
+        transform: scale(.75);
+    }
+    20%{
+        transform: scale(1);
+    }
+    40%{
+        transform: scale(.75);
+    }
+    60%{
+        transform: scale(1);
+    }
+}
+
+
 
 #myBtn {
     display: none;
@@ -92,8 +111,4 @@ margin-top: 10px;
     background-color: #555;
   }
 
-  @media(max-width:768px){
-      .main_header h1{
-          text-align: center;
-      }
-  }
+

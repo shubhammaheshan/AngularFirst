@@ -128,7 +128,6 @@ tr.example-element-row:not(.example-expanded-row):active {
 }
 .banner div h1{
   font-weight: bold;
-  text-align: center;
 }
 .banner div:nth-child(1){
     color: red;
@@ -141,12 +140,7 @@ tr.example-element-row:not(.example-expanded-row):active {
 }
 .banner div:nth-child(4){
   color: darkgrey;
-}
-.banner{
-  width: 600px;
-  margin: 0 auto;
-}
-
+} 
 
 .parent {
   display: flex;
